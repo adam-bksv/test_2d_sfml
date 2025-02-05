@@ -11,7 +11,7 @@ const auto print = [](const auto& x) { std::string str = x; std::cout << *x + "\
 
 float x = 1, y = 1, size = 50;
 
-sf::RenderWindow win(sf::VideoMode(800, 600), "margiela");
+sf::RenderWindow win(sf::VideoMode(window_size_x, window_size_y), "margiela");
 sf::VertexArray character_array(sf::Lines, 8);
 
 void move_character(float x, float y, float size) {
